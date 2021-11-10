@@ -1,9 +1,9 @@
 import math
 
-number = int(input("Enter the Number"))
+x = int(input("Enter the Number"))
 
-root = math.sqrt(number)
-if int(root + 0.5) ** 2 == number:
-    print(number, "is a perfect square")
+root = math.sqrt(x)
+if int(root + 0.5) ** 2 == x:
+    print(x, "is a perfect square")
 else:
-    print(number, "is not a perfect square")
+    print(x, "is not a perfect square")
